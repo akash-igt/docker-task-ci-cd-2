@@ -22,6 +22,6 @@ jobs:
       run: |         
         echo $USER
         echo $PASS
-        docker build . --file Dockerfile --tag akashigt/devops-ci/cd-task-2:v1
+        docker build . --file Dockerfile --tag akashigt/devops-ci-cd-task-2:v1
         docker login -u $USER -p $PASS        
-        docker push akashigt/devops-ci/cd-task-2:v1
+        docker push akashigt/devops-ci-cd-task-2:v1
